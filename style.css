@@ -1,25 +1,40 @@
-.body {
+img {
+    max-width: 50%;
+    height: 50%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(155, 18, 18, 0.788);
+    margin-bottom: 20px;
+
+}
+body {
     color: #333;
-    background-color: #f9f9f9;
+    background-color: #000000;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-shadow: 20px 20px 40px rgb(91, 2, 255);
 
-
-    font-family: Arial, sans-serif;
     font-size: 16px;}
 
 
 
-.h1 {
+h1 {
     color: #007bff;
     font-size: 24px;
     margin-bottom: 20px;
+    text-shadow: 20px 20px 40px rgb(0, 255, 234);
 }
 
-.h2 {
+h2 {
     color: #28a745;
     font-size: 20px;
     margin-bottom: 15px;
+    text-shadow: 20px 20px 40px rgb(0, 255, 234);
+}
+
+h3 {
+    color: #dc3545;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-shadow: 20px 20px 40px rgb(0, 255, 234);
 }
